@@ -7,16 +7,18 @@ In five minutes (fingers crossed)
 ## Francesco Negri
 @dhinus
 
-**Current job**: Senior Web Dev at BBC News Labs
+**Current job**: Senior Web Dev<br>at BBC News Labs
 
 **Current faves**: Docker, Clojure, React
 
 
 # What is Dokku?
 
-A set of bash scripts
+The smallest PaaS implementation you've ever seen
 
-Triggered by `git push`
+Seriously: a set of bash scripts
+
+You can trigger with<br>`git push`
 
 Building your app in a Docker container
 
