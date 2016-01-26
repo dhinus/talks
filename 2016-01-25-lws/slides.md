@@ -35,7 +35,7 @@ Easy to add DBs (with official plugins)
 
 Maintained, documented and tested
 
-Unlike you hacky deploy scripts
+Unlike your hacky deploy scripts
 
 (or mine)
 
