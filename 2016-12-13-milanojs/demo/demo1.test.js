@@ -1,11 +1,11 @@
 import React from 'react';
-import { mount, shallow } from 'enzyme';
-import { Menu } from './myth01';
+import { shallow } from 'enzyme';
+import { Menu } from './demo1';
 
 it('triggers onClick only on items that are not disabled', () => {
   const onClickOne = jest.fn();
   const onClickTwo = jest.fn();
-  const component = mount(
+  const component = shallow(
     <Menu options={[
       { title: 'Option One', onClick: onClickOne },
       { title: 'Option Two', onClick: onClickTwo, disabled: true }

@@ -1,5 +1,9 @@
 {
   "extends": "buildo",
+  "rules": {
+    "no-unused-vars": 0,
+    "react/no-multi-comp": 0
+  },
   "globals": {
     "jest": true,
     "it": true,

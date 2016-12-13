@@ -1,6 +1,8 @@
+// @flow
+
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Menu } from './myth01';
+import { Menu } from './demo1';
 
 it('triggers onClick only on items that are not disabled', () => {
   const onClickOne = jest.fn();
