@@ -14,9 +14,14 @@ body {
   background: #222;
   background-color: #222; }
 
+.reveal .credit {
+  font-size: 0.3em;
+  text-align: right;
+}
+
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 38px;
+  font-size: 58px;
   font-weight: normal;
   color: #fff; }
 
@@ -41,6 +46,8 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #fff;
+  background: #222;
+  opacity: 0.8;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -50,7 +57,7 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em; }
+  font-size: 2em; }
 
 .reveal h2 {
   font-size: 1.6em; }
