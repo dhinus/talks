@@ -19,7 +19,7 @@ Francesco Negri
 @dhinus
 
 ## Current job
-Software Engineer @ buildo.io
+Software Engineer @ [buildo.io](http://buildo.io)
 
 ## Things I touched in the last 30 days
 React, Flow, Node.js, Jest, Scala, Java, Docker, Terraform
@@ -32,11 +32,11 @@ I thought the case was settled...
 <!-- .slide: data-background="img/myth01opa.png" -->
 
 #### TDD is dead. Long live testing.
-http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html
+<small>http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html</small>
 <!-- .slide: data-background="img/myth01opa.png" -->
 
 #### Why Most Unit Testing Is Waste
-http://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf
+<small>http://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf</small>
 <!-- .slide: data-background="img/myth01opa.png" -->
 
 But this came out last month...
@@ -232,10 +232,12 @@ You might be onto something
 There's only a partial overlap
 <!-- .slide: data-background="img/myth10opa.png" -->
 
-http://kevinmahoney.co.uk/articles/tests-vs-types/
+#### Tests vs Types
+<small>http://kevinmahoney.co.uk/articles/tests-vs-types/</small>
 <!-- .slide: data-background="img/myth10opa.png" -->
 
-https://medium.com/@gcanti/type-driven-development-with-flow-e06ee61e1bc9
+##### Type driven development with Flow
+<small>https://medium.com/@gcanti/type-driven-development-with-flow-e06ee61e1bc9</small>
 <!-- .slide: data-background="img/myth10opa.png" -->
 
 <!-- .slide: data-background="https://cdn.meme.am/cache/instances/folder28/500x/61085028.jpg" -->
