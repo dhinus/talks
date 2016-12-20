@@ -12,17 +12,19 @@ Everything they told you about testing is wrong
 SPOILER: everyone does testing
 
 
-# About me
+## About me
 
-Francesco Negri
+#### Francesco Negri
+[twitter.com/dhinus](https://twitter.com/dhinus)
+[github.com/dhinus](https://github.com/dhinus)
 
-@dhinus
+### Current job
+Software Engineer @ <a style="color:#222" href="http://buildo.io">buildo.io</a>
+<!-- .slide: data-background="img/buildo.png" -->
 
-## Current job
-Software Engineer @ [buildo.io](http://buildo.io)
-
-## Things I touched in the last 30 days
+### Things I touched in the last 30 days
 React, Flow, Node.js, Jest, Scala, Java, Docker, Terraform
+<!-- .slide: data-background="img/buildo_opa.png" -->
 
 
 # MYTH #1: You should write the tests first
