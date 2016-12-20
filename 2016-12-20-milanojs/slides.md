@@ -75,24 +75,6 @@ You start by eating a biscuit<!-- .element: style="color: #fff" -->
 
 <!-- .slide: data-background="https://cdn.meme.am/cache/instances/folder917/64925917.jpg" -->
 
-```js
-    it('triggers onClick only on items that are not disabled', () => {
-      const onClickOne = jest.fn();
-      const onClickTwo = jest.fn();
-      const component = shallow(
-        <Menu options={[
-          { title: 'Option One', onClick: onClickOne },
-          { title: 'Option Two', onClick: onClickTwo, disabled: true }
-        ]}
-        />
-      );
-      component.find('.menu-item').at(0).simulate('click');
-      component.find('.menu-item').at(1).simulate('click');
-      expect(onClickOne).toBeCalled();
-      expect(onClickTwo).not.toBeCalled();
-    });
-```
-
 
 # MYTH #2: You should make sure your code is easy to test
 <!-- .slide: data-background="img/myth02.png" -->
