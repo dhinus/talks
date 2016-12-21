@@ -2,7 +2,7 @@
 
 MilanoJS, Milano, 20 Dec 2016
 
-[Watch the slides](http://dhinus.github.io/talks/2016-12-20-milanojs)
+[Watch the slides](http://dhinus.github.io/talks/2016-12-20-milanojs/)
 
 [Code used for the live demos](demo/)
 
