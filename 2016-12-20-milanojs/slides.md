@@ -214,8 +214,7 @@ You might be onto something
 <!-- .slide: data-background="img/myth09.png" -->
 
 <!-- .slide: data-background="img/myth09opa.png" -->
-* Taking this literally requires more mocking.
-* Let's see why.
+Taking this literally requires more mocking. Let's see why.
 
 <!-- .slide: data-background="img/myth09opa.png" -->
 * A depends on B
@@ -224,8 +223,8 @@ You might be onto something
 <!-- .slide: data-background="img/myth09opa.png" -->
 #### It's ok if the test for A is "testing" B again
 * No need to mock B!<!-- .element: class="fragment" -->
-* If there is a regression in B, the test for B fails<!-- .element: class="fragment" -->
-* If there is a regression in A, both tests fail<!-- .element: class="fragment" -->
+* If there is a regression in B, both tests fail<!-- .element: class="fragment" -->
+* If there is a regression in A, the test for A fails<!-- .element: class="fragment" -->
 
 
 # MYTH #10: You don't need tests if you use types

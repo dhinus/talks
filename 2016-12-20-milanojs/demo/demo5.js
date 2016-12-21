@@ -3,7 +3,7 @@
 type MenuOption = {|
   title: string,
   onClick: Function,
-  disabled: boolean
+  disabled: ?boolean
 |}
 
 type Props = {

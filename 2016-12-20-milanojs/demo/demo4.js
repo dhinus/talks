@@ -1,29 +1,50 @@
 import React from 'react';
-import range from 'lodash/range';
-
-class Icon extends React.Component {
+class Menu extends React.Component {
 
   getLocals() {
-    const { icon, color, style = {} } = this.props;
+    const { options, color } = this.props;
     return {
-      icon,
-      style: { color: color || style.color }
+      options: options.map((opt) => ({
+        title: opt.title,
+        onClick: opt.onClick,
+        color: opt.color || color || '#fff'
+      }))
     };
   }
 
-  template({ icon, className, style, onClick, paths }) {
-    return icon ? (
-      <i style={style} onClick={onClick}>
-        {paths > 1 && range(paths).map(k => <span className={`path${k + 1}`} key={k} /> )}
-      </i>
-    )
-    : null;
+  onOptionClick(option) {
+    return () => {
+      if (!option.disabled) {
+        option.onClick(option);
+      }
+    };
+  }
+
+  menuItem(option) {
+    return (
+      <div className='menu-item' onClick={this.onOptionClick(option)}
+        style={{ color: option.color }}
+      >
+        {option.title}
+      </div>
+    );
+  }
+
+  template({ options }) {
+    return (
+      <div className='menu'>
+        {options.map((option, i) => (
+          <div className='menu-row' key={i}>
+            {this.menuItem(option)}
+          </div>
+        ))}
+      </div>
+    );
   }
 
   render() {
     return this.template(this.getLocals());
   }
-
 }
 
-export { Icon };
+export { Menu };

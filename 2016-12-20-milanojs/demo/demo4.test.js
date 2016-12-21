@@ -1,24 +1,25 @@
 import React from 'react';
-import { Icon } from './demo4';
-import { shallow, mount, render } from 'enzyme';
+import { Menu } from './demo4';
+import { shallow, mount } from 'enzyme';
 
 // Without hitting the DOM
 it('overrides color from style if provided as prop', () => {
-  const icon = new Icon({
-    icon: 'foo',
-    style: { color: 'blue' },
-    color: 'red'
+  const menu = new Menu({
+    color: 'blue',
+    options: [
+      { title: 'Option One', onClick: jest.fn(), color: 'red' }
+    ]
   });
-  expect(icon.getLocals().style.color).toBe('red');
+  expect(menu.getLocals().options[0].color).toBe('red');
 });
 
 // Hitting the DOM
 it('overrides color from style if provided as prop', () => {
-  const icon = render(
-    <Icon icon='foo'
-      style={{ color: 'blue' }}
-      color='red'
+  const menu = mount(
+    <Menu
+      color='blue'
+      options={[ { title: 'Option One', onClick: jest.fn(), color: 'red' } ]}
     />
   );
-  expect(icon.find('i').css('color')).toBe('red');
+  expect(menu.render().find('.menu-item').css('color')).toBe('red');
 });
