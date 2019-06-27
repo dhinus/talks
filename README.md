@@ -8,22 +8,22 @@ All the slides are licensed under a
 ### 10 TDD Myths
 (Milano JS, Milano, 20 Dec 2016)
 
-[slides](http://dhinus.github.io/talks/2016-12-20-milanojs/)
+[slides](https://dhinus.github.io/talks/2016-12-20-milanojs/)
 &bull;
-[source](2016-12-20-milanojs/)
+[source](https://github.com/dhinus/talks/tree/master/2016-12-20-milanojs/)
 
 ### Get your own mini-Heroku with Dokku
 (London Web Standards, London, 25 Jan 2016)
 
-[slides](http://dhinus.github.io/talks/2016-01-25-lws/)
+[slides](https://dhinus.github.io/talks/2016-01-25-lws/)
 &bull;
-[source](2016-01-25-lws/)
+[source](https://github.com/dhinus/talks/tree/master/2016-01-25-lws/)
 
 ## 2015
 
 ### Testing client-side JavaScript
-(Cayenne, Milano, 22 Nov 2015)
+(Cayenne, Milano, 22 Dec 2015)
 
-[slides](http://dhinus.github.io/talks/2015-12-22-cayenne/)
+[slides](https://dhinus.github.io/talks/2015-12-22-cayenne/)
 &bull;
-[source](2015-11-22-cayenne/)
+[source](https://github.com/dhinus/talks/tree/master/2015-12-22-cayenne/)
